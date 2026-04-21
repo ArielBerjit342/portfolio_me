@@ -32,9 +32,6 @@ import portfolio6 from "./projects/portfolio-6.png";
 import portfolio7 from "./projects/portfolio-7.png";
 import portfolio8 from "./projects/portfolio-8.png";
 
-// Avatar
-import avatar from "./avatar/avatar.png";
-
 export {
   menu,
   close,
@@ -47,7 +44,6 @@ export {
   figmaIcon,
   nodeIcon,
   viteIcon,
-  avatar,
   bl33hIcon,
   portfolio1,
   portfolio3,

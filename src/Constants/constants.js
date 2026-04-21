@@ -28,7 +28,6 @@ import {
   viteIcon,
   nodeIcon,
   figmaIcon,
-  avatar,
   portfolio1,
   portfolio3,
   portfolio4,
@@ -50,7 +49,6 @@ const media = {
   viteIcon,
   nodeIcon,
   figmaIcon,
-  avatar,
   portfolio1,
   portfolio3,
   portfolio4,
@@ -202,10 +200,6 @@ const projects = [
   },
 ];
 
-const memoji = {
-  image: [avatar],
-};
-
 const skills = [
   {
     id: "react",
@@ -317,7 +311,6 @@ export {
   introduction,
   experience,
   projects,
-  memoji,
   skills,
   markerSvg,
   icons,

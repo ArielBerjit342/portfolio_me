@@ -9,9 +9,7 @@
 
 import { m, LazyMotion, domAnimation } from "framer-motion";
 import SectionTitle from "../Components/SectionTitle";
-import { memoji } from "../Constants/constants";
 import { introduction } from "../Constants/constants";
-import ImageSlider from "../Components/elements/ImageSlider";
 
 const About = () => {
   return (
@@ -20,8 +18,8 @@ const About = () => {
         <div className="w-full">
           <SectionTitle title="ABOUT ME" subtitle="Why I'm a strong fit" />
         </div>
-        <div className="w-full flex flex-col-reverse sm:flex-row">
-          <div className="w-full md:w-[50%] md:h-full flex items-center mt-100">
+        <div className="w-full flex flex-col">
+          <div className="w-full md:h-full flex items-center mt-100">
             <LazyMotion features={domAnimation} strict>
               <m.p
                 initial={{ opacity: 0 }}
@@ -33,7 +31,7 @@ const About = () => {
                   damping: 20,
                 }}
                 style={{ fontFamily: "Poppins, sans-serif" }}
-                className="text-grayscale-50 p-6 text-center flex flex-col gap-5"
+                className="text-grayscale-50 p-6 text-center flex flex-col gap-5 max-w-3xl mx-auto"
               >
                 <span
                   className="text-primary-400"
@@ -71,11 +69,6 @@ const About = () => {
                 </a>
               </m.p>
             </LazyMotion>
-          </div>
-          <div className="w-full md:w-[50%] flex h-full items-center justify-center">
-            <div className="w-[80%] lg:w-[50%] h-[300px] sm:h-[350px] flex justify-center items-center">
-              <ImageSlider images={memoji.image} />
-            </div>
           </div>
         </div>
       </div>
