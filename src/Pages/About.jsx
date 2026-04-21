@@ -31,7 +31,7 @@ const About = () => {
                   damping: 20,
                 }}
                 style={{ fontFamily: "Poppins, sans-serif" }}
-                className="text-grayscale-50 p-6 text-center flex flex-col gap-5 max-w-3xl mx-auto"
+                className="text-grayscale-50 p-6 text-center flex flex-col gap-5"
               >
                 <span
                   className="text-primary-400"
